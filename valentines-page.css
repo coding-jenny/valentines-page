@@ -123,6 +123,13 @@ nav ul li {
 #valentines p a {
     color: var(--dark_red);
     opacity: 1;
+    z-index: 999;
+
+}
+
+#valentines p a.priority {
+    position: absolute;
+    z-index: 1000;
 }
 
 #valentines {
